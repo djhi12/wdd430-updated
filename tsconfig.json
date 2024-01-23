@@ -1,14 +1,16 @@
 {
   "compilerOptions": {
+    "target": "es2017", // or higher
+    "module": "esnext", // or other options mentioned in the error message
     "forceConsistentCasingInFileNames": true,
-    "target": "es5",
+    // "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
     "noEmit": true,
     "esModuleInterop": true,
-    "module": "esnext",
+    // "module": "esnext",
     "moduleResolution": "Node",
     "resolveJsonModule": true,
     "isolatedModules": true,
