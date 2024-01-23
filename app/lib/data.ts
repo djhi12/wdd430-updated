@@ -7,6 +7,7 @@ const data = await sql<LatestInvoiceRaw>`
   JOIN customers ON invoices.customer_id = customers.id
   ORDER BY invoices.date DESC
   LIMIT 5`;
+
 import {
   CustomerField,
   CustomersTableType,
