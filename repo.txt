@@ -1,0 +1,2 @@
+https://github.com/lllariogonzalez/nextjs-dashboard/blob/main/app/dashboard/invoices/%5Bid%5D/edit/not-found.tsx
+
