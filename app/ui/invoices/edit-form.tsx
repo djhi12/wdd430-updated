@@ -25,7 +25,7 @@ export default function EditInvoiceForm({
     const updateInvoiceWithId = updateInvoice.bind(null, invoice.id);
     const [state, dispatch] = useFormState(updateInvoiceWithId, initialState);
     // const updateInvoiceWithId = updateInvoice.bind(null, invoice.id);
-  return 
+  return (
     <form action={dispatch}>
     <input type="hidden" name="id" value={invoice.id} />
       <div className="rounded-md bg-gray-50 p-4 md:p-6">
@@ -128,5 +128,5 @@ export default function EditInvoiceForm({
         <Button type="submit">Edit Invoice</Button>
       </div>
     </form>
-  ;
+  );
 }
